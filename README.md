@@ -1,2 +1,17 @@
 # LLM_T5-small_CLI
-Some code to get a CLI I/O using transformers and a T5-small model
+
+## To run the CLI:
+
+## [Step 1]
+### Install the required dependancies and setup virtual environment:
+```
+$ python -m venv venv
+$ ./venv/Scripts/activate
+$ pip install -r requirements.txt
+```
+## [Step 2]
+### Run the model:
+```
+$ python runthellm.py "[Your message]"
+```
+
